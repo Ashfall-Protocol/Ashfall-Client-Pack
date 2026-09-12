@@ -21,11 +21,13 @@ possible: copy the archive's `minecraft` directory contents into a Forge
 - Ashfall resource pack;
 - TacZ default gunpack assets;
 - tested client configs, key bindings, video/audio settings, and UI settings;
+- the official `ASHFALL PROTOCOL` server entry (`ashfallmc.space:25565`);
 - portable Prism metadata for importing the instance.
 
-Personal and server-side state is intentionally excluded: server lists,
-worlds, maps, waypoints, logs, caches, account data, server scripts, proxy
-secrets, XRay packs, and the CheatUtils test mod.
+Personal and server-side state is intentionally excluded: personal server
+entries and saved server-list backups, worlds, maps, waypoints, logs, caches,
+account data, server scripts, proxy secrets, XRay packs, and the CheatUtils
+test mod.
 
 ### Integrity and automatic updates
 
@@ -81,11 +83,13 @@ Ashfall Protocol — клиентская сборка Minecraft Java Edition 1.
 - ресурспак Ashfall;
 - стандартные ассеты gunpack для TacZ;
 - проверенные конфиги клиента, бинды, видео-, аудио- и UI-настройки;
+- официальная запись сервера `ASHFALL PROTOCOL` (`ashfallmc.space:25565`);
 - переносимые метаданные Prism для импорта инстанса.
 
-Личные и серверные данные намеренно исключены: список серверов, миры, карты,
-вейпоинты, логи, кэши, данные аккаунта, серверные скрипты, секреты прокси,
-XRay-ресурспаки и тестовый мод CheatUtils.
+Личные и серверные данные намеренно исключены: личные записи серверов и
+резервные копии списка серверов, миры, карты, вейпоинты, логи, кэши, данные
+аккаунта, серверные скрипты, секреты прокси, XRay-ресурспаки и тестовый мод
+CheatUtils.
 
 ### Целостность и автообновление
 

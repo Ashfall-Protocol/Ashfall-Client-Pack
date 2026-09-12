@@ -1,0 +1,69 @@
+{
+  "ui.button.click": {
+    "replace": true,
+    "sounds": [
+      "minecraft:ui/tactical_click_1",
+      "minecraft:ui/tactical_click_2",
+      "minecraft:ui/tactical_click_3"
+    ]
+  },
+  "random.click": {
+    "replace": true,
+    "sounds": [
+      "minecraft:ui/tactical_click_1",
+      "minecraft:ui/tactical_click_2",
+      "minecraft:ui/tactical_click_3"
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:music/menu/ashfall_ambient",
+        "stream": true
+      }
+    ]
+  },
+  "block.chest.open": {
+    "replace": true,
+    "sounds": [
+      "minecraft:block/chest/open"
+    ]
+  },
+  "block.chest.close": {
+    "replace": true,
+    "sounds": [
+      "minecraft:block/chest/close"
+    ]
+  },
+  "block.barrel.open": {
+    "replace": true,
+    "sounds": [
+      "minecraft:block/barrel/open"
+    ]
+  },
+  "block.barrel.close": {
+    "replace": true,
+    "sounds": [
+      "minecraft:block/barrel/close"
+    ]
+  },
+  "entity.player.attack.crit": {
+    "replace": true,
+    "sounds": [
+      "minecraft:entity/player/attack/hitmarker"
+    ]
+  },
+  "entity.player.attack.strong": {
+    "replace": true,
+    "sounds": [
+      "minecraft:entity/player/attack/hitmarker"
+    ]
+  },
+  "entity.experience_orb.pickup": {
+    "replace": true,
+    "sounds": [
+      "minecraft:entity/experience_orb/pickup"
+    ]
+  }
+}

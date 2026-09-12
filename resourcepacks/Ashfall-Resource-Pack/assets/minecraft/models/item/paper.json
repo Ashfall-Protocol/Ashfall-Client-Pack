@@ -1,0 +1,464 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2001
+      },
+      "model": "minecraft:item/keycard_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2002
+      },
+      "model": "minecraft:item/keycard_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2003
+      },
+      "model": "minecraft:item/keycard_green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2004
+      },
+      "model": "minecraft:item/keycard_black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5000
+      },
+      "model": "minecraft:item/rank_survivor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5001
+      },
+      "model": "minecraft:item/rank_contractor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5002
+      },
+      "model": "minecraft:item/rank_field_agent"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5003
+      },
+      "model": "minecraft:item/rank_specialist"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5004
+      },
+      "model": "minecraft:item/rank_commander"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5005
+      },
+      "model": "minecraft:item/rank_director"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6001
+      },
+      "model": "minecraft:item/ui_arrow_prev"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6002
+      },
+      "model": "minecraft:item/ui_arrow_next"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6003
+      },
+      "model": "minecraft:item/ui_close"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6004
+      },
+      "model": "minecraft:item/ui_confirm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6005
+      },
+      "model": "minecraft:item/ui_refresh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6006
+      },
+      "model": "minecraft:item/ui_plus_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6007
+      },
+      "model": "minecraft:item/ui_plus_10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6008
+      },
+      "model": "minecraft:item/ui_plus_64"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6009
+      },
+      "model": "minecraft:item/ui_minus_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6010
+      },
+      "model": "minecraft:item/ui_minus_10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6011
+      },
+      "model": "minecraft:item/ui_minus_64"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6101
+      },
+      "model": "minecraft:item/market_uplink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6102
+      },
+      "model": "minecraft:item/market_all"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6103
+      },
+      "model": "minecraft:item/market_weapons"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6104
+      },
+      "model": "minecraft:item/market_armor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6105
+      },
+      "model": "minecraft:item/market_explosives"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6106
+      },
+      "model": "minecraft:item/market_industrial"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6107
+      },
+      "model": "minecraft:item/market_medical"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6108
+      },
+      "model": "minecraft:item/market_resources"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6109
+      },
+      "model": "minecraft:item/market_misc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6110
+      },
+      "model": "minecraft:item/market_my_listings"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6111
+      },
+      "model": "minecraft:item/market_collections"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6112
+      },
+      "model": "minecraft:item/market_create"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6113
+      },
+      "model": "minecraft:item/market_sort"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6114
+      },
+      "model": "minecraft:item/market_filter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6115
+      },
+      "model": "minecraft:item/market_history"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6201
+      },
+      "model": "minecraft:item/buyer_catalog"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6202
+      },
+      "model": "minecraft:item/buyer_sell_held"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6203
+      },
+      "model": "minecraft:item/buyer_payout"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6301
+      },
+      "model": "minecraft:item/help_main"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6302
+      },
+      "model": "minecraft:item/help_survival"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6303
+      },
+      "model": "minecraft:item/help_combat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6304
+      },
+      "model": "minecraft:item/help_economy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6305
+      },
+      "model": "minecraft:item/help_market"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6306
+      },
+      "model": "minecraft:item/help_buyer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6307
+      },
+      "model": "minecraft:item/help_donations"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6308
+      },
+      "model": "minecraft:item/help_bounty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6309
+      },
+      "model": "minecraft:item/help_world"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6310
+      },
+      "model": "minecraft:item/help_bosses"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6311
+      },
+      "model": "minecraft:item/help_ew"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6312
+      },
+      "model": "minecraft:item/help_claim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6313
+      },
+      "model": "minecraft:item/help_clans"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6314
+      },
+      "model": "minecraft:item/help_security"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6315
+      },
+      "model": "minecraft:item/help_homes"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6316
+      },
+      "model": "minecraft:item/help_voice"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6317
+      },
+      "model": "minecraft:item/help_commands"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6318
+      },
+      "model": "minecraft:item/help_rules"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6319
+      },
+      "model": "minecraft:item/help_manual_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6401
+      },
+      "model": "minecraft:item/don_terminal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6402
+      },
+      "model": "minecraft:item/don_dispatch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6403
+      },
+      "model": "minecraft:item/don_salary"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6404
+      },
+      "model": "minecraft:item/clan_deposit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6405
+      },
+      "model": "minecraft:item/clan_rights"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6406
+      },
+      "model": "minecraft:item/settings_panel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6407
+      },
+      "model": "minecraft:item/settings_lang"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6408
+      },
+      "model": "minecraft:item/settings_alerts"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6409
+      },
+      "model": "minecraft:item/settings_hud"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6410
+      },
+      "model": "minecraft:item/settings_chat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6411
+      },
+      "model": "minecraft:item/settings_radio"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6412
+      },
+      "model": "minecraft:item/settings_effects"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6413
+      },
+      "model": "minecraft:item/settings_reset"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6414
+      },
+      "model": "minecraft:item/kit_storage"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6415
+      },
+      "model": "minecraft:item/lang_en"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6416
+      },
+      "model": "minecraft:item/lang_ru"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6417
+      },
+      "model": "minecraft:item/lang_uk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6418
+      },
+      "model": "minecraft:item/lang_active"
+    }
+  ]
+}

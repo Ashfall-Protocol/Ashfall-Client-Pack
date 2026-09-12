@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/nether_star"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 5000
+      },
+      "model": "minecraft:item/rank_survivor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5001
+      },
+      "model": "minecraft:item/rank_contractor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5002
+      },
+      "model": "minecraft:item/rank_field_agent"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5003
+      },
+      "model": "minecraft:item/rank_specialist"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5004
+      },
+      "model": "minecraft:item/rank_commander"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5005
+      },
+      "model": "minecraft:item/rank_director"
+    }
+  ]
+}

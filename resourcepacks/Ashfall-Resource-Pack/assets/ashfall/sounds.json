@@ -1,0 +1,75 @@
+{
+  "airdrop_siren": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ashfall:events/airdrop_siren",
+        "stream": true
+      }
+    ]
+  },
+  "nvg_on": {
+    "category": "player",
+    "sounds": [
+      "ashfall:equipment/nvg_on"
+    ]
+  },
+  "nvg_off": {
+    "category": "player",
+    "sounds": [
+      "ashfall:equipment/nvg_off"
+    ]
+  },
+  "heartbeat": {
+    "category": "player",
+    "sounds": [
+      "ashfall:combat/heartbeat"
+    ]
+  },
+  "heavy_breathing": {
+    "category": "player",
+    "sounds": [
+      "ashfall:combat/heavy_breathing_1",
+      "ashfall:combat/heavy_breathing_2",
+      "ashfall:combat/heavy_breathing_3"
+    ]
+  },
+  "tactical_click": {
+    "category": "ui",
+    "sounds": [
+      "minecraft:ui/tactical_click_1",
+      "minecraft:ui/tactical_click_2",
+      "minecraft:ui/tactical_click_3"
+    ]
+  },
+  "bullet_snap": {
+    "category": "player",
+    "sounds": [
+      "ashfall:combat/bullet_snap_1",
+      "ashfall:combat/bullet_snap_2",
+      "ashfall:combat/bullet_snap_3"
+    ]
+  },
+  "armor_impact": {
+    "category": "player",
+    "sounds": [
+      "ashfall:combat/armor_impact_1",
+      "ashfall:combat/armor_impact_2",
+      "ashfall:combat/armor_impact_3"
+    ]
+  },
+  "tinnitus": {
+    "category": "player",
+    "sounds": [
+      "ashfall:combat/tinnitus"
+    ]
+  },
+  "gear_rustle": {
+    "category": "player",
+    "sounds": [
+      "ashfall:equipment/gear_rustle_1",
+      "ashfall:equipment/gear_rustle_2",
+      "ashfall:equipment/gear_rustle_3"
+    ]
+  }
+}

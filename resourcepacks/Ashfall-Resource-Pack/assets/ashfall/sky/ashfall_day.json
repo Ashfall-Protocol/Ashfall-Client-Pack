@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "type": "square-textured",
+  "properties": {
+    "priority": 1,
+    "fade": {
+      "startFadeIn": 23000,
+      "endFadeIn": 1000,
+      "startFadeOut": 12000,
+      "endFadeOut": 13500
+    },
+    "inThickFog": true,
+    "changeFog": true,
+    "fogColors": {
+      "red": 0.345,
+      "green": 0.36,
+      "blue": 0.372,
+      "alpha": 1.0
+    },
+    "sunSkyTint": false
+  },
+  "textures": {
+    "top": "ashfall:textures/sky/day_top.png",
+    "bottom": "ashfall:textures/sky/day_bottom.png",
+    "north": "ashfall:textures/sky/day_north.png",
+    "south": "ashfall:textures/sky/day_south.png",
+    "east": "ashfall:textures/sky/day_east.png",
+    "west": "ashfall:textures/sky/day_west.png"
+  },
+  "blend": {
+    "type": "alpha"
+  },
+  "decorations": {
+    "showSun": false,
+    "showMoon": false,
+    "showStars": false
+  }
+}

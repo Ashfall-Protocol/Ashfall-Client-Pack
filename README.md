@@ -47,12 +47,13 @@ distributed through a new full client release.
 4. The script synchronizes the public mod mirror, regenerates and signs the
    manifest, builds the client archive, pushes the repository, and creates the
    GitHub Release.
-5. Players restart Minecraft. AshfallGuard applies the update before the next
-   connection attempt.
+5. Players start or restart Minecraft. AshfallGuard downloads the verified
+   update, applies it after Minecraft closes, and the player launches the
+   client once more before connecting.
 
 To remove a mod for everyone, delete its JAR from `client/mods` before the
-release. The signed manifest will no longer list it and the updater will remove
-it from clients.
+release and pass `-PruneUnlistedRepoMods` to the publisher. The signed manifest
+will no longer list it and the updater will remove it from clients.
 
 Never commit the Ed25519 private signing key. Keep an offline backup; losing it
 requires shipping a new client build with a new public key.
@@ -105,11 +106,13 @@ Updater управляет только JAR-файлами модов. Изме�
    `2026.09.13`.
 4. Скрипт обновит публичную копию модов, пересоздаст и подпишет manifest,
    соберёт клиентский архив, отправит изменения в GitHub и создаст Release.
-5. Игрокам достаточно перезапустить Minecraft. AshfallGuard обновит сборку до
-   следующего подключения к серверу.
+5. Игрок запускает или перезапускает Minecraft. AshfallGuard скачает
+   проверенное обновление, применит его после закрытия Minecraft, после чего
+   клиент нужно запустить ещё раз и подключиться к серверу.
 
-Чтобы удалить мод у всех, удали его JAR из `client/mods` перед релизом. В
-подписанном manifest его больше не будет, и updater удалит мод у игроков.
+Чтобы удалить мод у всех, удали его JAR из `client/mods` перед релизом и передай
+издателю флаг `-PruneUnlistedRepoMods`. В подписанном manifest его больше не
+будет, и updater удалит мод у игроков.
 
 Никогда не добавляй приватный Ed25519-ключ подписи в Git. Храни его отдельно и
 сделай резервную копию: при потере ключа придётся выпускать клиент с новым
